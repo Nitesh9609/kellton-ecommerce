@@ -5,6 +5,7 @@ import ShopPage from "./pages/ShopPage/shoppage.component";
 import SignInSignUp from "./pages/Sign-in-and-Sign-up/Sign-in-and-Sign-up.component";
 import Header from "./components/header/header.component";
 import Category from "./pages/Category/Category.component";
+import Checkout from "./pages/Checkout/Checkout.component";
 
 // ROUTE EXAMPLE IMPORTS
 // import {Link,useNavigate,useParams} from 'react-router-dom'
@@ -22,6 +23,7 @@ function App() {
         <Route path='/shop' element={<ShopPage />} />
         <Route path='/signin' element={<SignInSignUp />} />
         <Route path='/category/:categoryId' element={ <Category />} />
+        <Route path='/checkout' element={<Checkout/>}/>
          {/**  ROUTE EXAMPLES
         <Route path='/topiclist' element={<TopicList />} />
         <Route path='/topiclist/:topicId' element={<TopicDetail />} /> */}
