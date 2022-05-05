@@ -1,0 +1,3 @@
+export const CONTROLLER_ACTION_TYPE = {
+    GET_PRODUCTS : 'GET_PRODUCTS'
+}

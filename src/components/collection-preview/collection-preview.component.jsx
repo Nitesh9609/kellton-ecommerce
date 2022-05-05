@@ -1,6 +1,6 @@
 import CollectionItem from '../collection-item/collection-item.component'
 import './collection-preview.styles.scss'
-
+// import {connect} from 'react-redux'
 const CollectionPreview = ({collection}) =>{
     const {items} = collection
     return(
@@ -22,5 +22,9 @@ const CollectionPreview = ({collection}) =>{
         </>
     )
 }
+// const mapStateToProps = (state) => ({
+//     collection : state.collections.collections
+// })
+
 
 export default CollectionPreview
